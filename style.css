@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+}
+
+/* header content css */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.img-container {
+    cursor: pointer;
+    height: 100%;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 72vw;
+}
+.prop {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.prop li a {
+    margin-left: 2px;
+    font-size: 0.92rem;
+    padding: 5px 8px;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    font-weight: 520;
+}
+.prop li a:hover{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: #fff;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:16vw ;
+    padding-left: 10px;
+}
+.icon-container i {
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-left: 1.7rem;
+}
+
+/* main content css */
+
+.hero-container {
+    position: relative;
+}
+.img1-content1 {
+    position: relative;
+    height: 640px;
+    width: 94%;
+    margin-left: 40px;
+}
+.img1-content1 img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img-text-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 27%;
+    height: 300px;
+    width: 94%;
+    margin-left: 40px;
+}
+.hero-info-txt {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7%;
+    width: 94%;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    font-weight: 350;
+    cursor: text;
+}
+.text-content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 540px;
+}
+.text-content1 h1 {
+    font-size: 2.5rem;
+    font-weight: 620;
+}
+.txt-sub-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.txt-sub-item h6 {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 23px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.txt-sub-item h6:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.txt-sub-item h5 {
+    font-size: 0.92rem;
+    line-height: 19px;
+    font-weight: 580;
+    margin-right: 20px;
+    border-bottom: 3.1px solid #000;
+}
+.hero-button {
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    width: 94%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.btn i {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* content two */
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+.mid-container h1 {
+    margin-top: 7px;
+    font-size: 2.5rem;
+}
+.main-list-item {
+    list-style-type: none;
+    display: flex;
+    gap: 2.2rem;
+    margin-top: 1.5rem;
+}
+.main-list-item a {
+    font-size: 1.15rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 530;
+}
+
+/* multi conatainer css */
+
+.main-multi-container {
+    display: flex;
+    justify-content: space-between;
+    height: 685px;
+    width: 91.5%;
+    margin-left: 65px;
+}
+.boxes-prop {
+    height: 100%;
+    width: 49%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+.container-box1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .container-box1 img:hover {
+
+} */
+.sub-prop1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+ 
+}
+.last-sub-container {
+    height: 97%;
+    width: 48%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.last-sub-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sub-container-two {
+    padding-top: 12px;
+}
+
+/* img-text-contant */
+
