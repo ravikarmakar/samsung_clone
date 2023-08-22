@@ -203,6 +203,7 @@ html , body {
     height: 685px;
     width: 91.5%;
     margin-left: 65px;
+    position: relative;
 }
 .boxes-prop {
     height: 100%;
@@ -231,6 +232,7 @@ html , body {
     width: 48%;
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
 }
 .last-sub-container img {
     height: 100%;
@@ -243,3 +245,13 @@ html , body {
 
 /* img-text-contant */
 
+.img-txt1-info{
+    /* z-index: 999; */
+    position: absolute;
+    bottom: 0;
+}
+.img-txt2-info{
+    /* z-index: 999; */
+    position: absolute;
+    bottom: 0;
+}
