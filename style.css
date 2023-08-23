@@ -203,6 +203,7 @@ html , body {
     height: 685px;
     width: 91.5%;
     margin-left: 65px;
+    position: relative;
 }
 .boxes-prop {
     height: 100%;
@@ -212,6 +213,7 @@ html , body {
     overflow: hidden;
 }
 .container-box1 img {
+    transition: all 0.5s ease-in-out;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -231,6 +233,7 @@ html , body {
     width: 48%;
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
 }
 .last-sub-container img {
     height: 100%;
@@ -243,3 +246,21 @@ html , body {
 
 /* img-text-contant */
 
+.img-txt1-info{
+    /* z-index: 999; */
+    position: absolute;
+    bottom: 0;
+    margin-left: 250px;
+}
+.img-txt2-info{
+    /* z-index: 999; */
+    position: absolute;
+    bottom: 0;
+}
+
+/* Hover */ 
+/* Apply scaling effect to images inside container-box1 and img-txt2-info on hover */
+.container-box1:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
